@@ -41,4 +41,8 @@ La otra forma que podremos hacerlo es usando un CMS, en este caso netlify nos pr
 
 - [Netlify CMS](https://www.netlifycms.org/docs/start-with-a-template/)
 
-Desde allí lo añadiremos a un sitio existente.
+Desde allí lo añadiremos a un sitio existente. [Add to your site](https://www.netlifycms.org/docs/add-to-your-site/)
+
+
+## Configuración de Netlify
+
