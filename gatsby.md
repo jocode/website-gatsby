@@ -25,4 +25,20 @@ La plantilla que vamos a usar es el **`gatsby-starter-blog`**.
 
 - **`npx gatsby new website-gatsby https://github.com/gatsbyjs/gatsby-starter-blog`**
 
-- **`gatsby develop`**
+- **`npx gatsby develop`**
+
+
+## Configuración de Gatsby
+
+Los archivos de configuración de Gatsby son **`gatsby-config.js`** y **`gatsby-node.js`**.
+
+Los archivos para generar paginas se encuentran en la carpeta **`src/pages`**.
+A partir de ellas podemos generar páginas con Gatsby, y el automáticamente nos crea la ruta con el nombre de la página.
+
+Para la creación de Post, podremos hacerlo en la carpeta **`src/posts`**, allí podremos crear el contenido de los posts en un archivo markdown, dentro de una capeta con el nombre del post.
+
+La otra forma que podremos hacerlo es usando un CMS, en este caso netlify nos provee de Netlify CMS para crear contenido.
+
+- [Netlify CMS](https://www.netlifycms.org/docs/start-with-a-template/)
+
+Desde allí lo añadiremos a un sitio existente.
