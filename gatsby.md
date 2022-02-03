@@ -46,3 +46,27 @@ Desde allí lo añadiremos a un sitio existente. [Add to your site](https://www.
 
 ## Configuración de Netlify
 
+Vamos a netlify y creamos las carpetas necesarias en el proyecto para que funcione como CMS gestionado por Netlify CMS.
+
+En la carpeta **public** creamos un carpeta llamada **`admin`** con 2 archivos:
+- **`index.html`**
+- **`config.yml`**
+
+En el archivo `index.html` colocamos el contenido para iniciar sesión en Netlify. Y en el archivo `config.yml` colocamos la configuración de nuestro sitio web, para indicarle que carpetas se deben gestionar, para guardar los post y para guardar las imágenes, crear categorías, etc.
+
+
+### Habilitar el inicio de sesion en Netlify
+
+Para gestionar el inicio de sesión para colocar las entradas de post, ingresamos a Netlify y primero que todo vinculamos el repositorio de Github con nuestro sitio web. De esta forma ya luego dentro de las configuraciones del sitio **Site Settings** podremos acceder a Netlify CMS.
+
+Para ello, accedemos a **Identity** y damos clic en **Enable Identity**, y luego cambiar las preferencias de registro, para que solo unos usuarios puedan ser editores del blog.
+
+En la parte de servicios, debemos habilitar también **Git Gateway**, para que podamos subir los archivos a nuestro repositorio de Github. Para que el contenido que se publica en NetlifyCMS se envíe a Github y se renderice luego en Netlify.
+
+Y finalmente podremos habilitar proveedores externos para permitir que los usuarios se registren e inicien sesión con proveedores de OAuth externos, como Google.
+
+
+## Acceder al panel para el CMS
+
+Para al administrador, debemos ingresar a la URL del sitio web y en la url, colocamos **`/admin`**, de esta forma ya podremos acceder al panel de administración.
+
